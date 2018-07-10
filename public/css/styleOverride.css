@@ -1,0 +1,106 @@
+/*
+* UTILITY SVG STYLING 
+*/
+
+.st0:hover, .st2:hover, .st3:hover, .st4:hover, .st17:hover, .st19:hover, .st5:hover, .st6:hover {animation: 0.8s draw ease-in-out backwards;border-width:0px;}
+.st0{fill:#009FE3;} 	
+.st1{fill:#0088C2;}
+.st2{fill:#00A19A;} 			/* phase 5 arrows */
+.st3{fill:#FCC103;} 			/* phase 4 carrot */
+.st4{fill:#FFD671;} 			/* phase 3 retail  */
+.st5{fill:#83D0F5;} 			/* phase 2 prepped */
+.st6{fill:#1C9CD9;opacity:1;} 	/* phase 1 restaurant */
+/* bitez logo */
+.st7{clip-path:url(#SVGID_2_);fill:#FCC006;}
+.st8{clip-path:url(#SVGID_2_);}
+.st9{fill:url(#SVGID_3_);}
+.st10{fill:url(#SVGID_4_);}
+.st11{fill:url(#SVGID_5_);}
+.st12{fill:url(#SVGID_6_);}
+.st13{fill:url(#SVGID_7_);}
+.st14{fill:url(#SVGID_8_);}
+.st15{clip-path:url(#SVGID_10_);fill:url(#SVGID_11_);}
+/* end bitez logo */
+.st16{fill:#6AB0E2;}
+.st17{fill:#FFD36C;} /* phase 3 retail circle */
+.st18{fill:#D6A500;}
+.st19{fill:#00A19A;stroke:#139389;stroke-miterlimit:10;}
+.st20{fill:none;}
+.st21{font-family:'Poppins';}
+.st22{font-size:10px;}
+.st23{fill:#FDC100;}
+.st24{font-family:'Poppins';}
+.st25{font-size:8px;}
+.st26{fill:#2FAC66;}
+.st27{fill:#FFFFFF;}
+.st28{fill:none;stroke:#FFFFFF;stroke-width:0.7903;stroke-miterlimit:10;}
+.st29{fill:none;stroke:#FFFFFF;stroke-width:1.2642;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.st30{fill:#FCC103;stroke:#FFFFFF;stroke-width:1.2642;stroke-miterlimit:10;}
+.st31{fill:#FCC103;stroke:#FFFFFF;stroke-width:1.2642;stroke-linecap:round;stroke-miterlimit:10;}
+.st32{fill:none;stroke:#FFFFFF;stroke-width:1.5241;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+.team-member {
+	background-color: transparent!important;
+}
+
+.none {
+	display:none;
+}
+.slow {
+	animation: 0.8s draw ease-in-out backwards;
+}
+
+.pullUp {
+	margin-top:-100px;
+}
+
+@keyframes draw {
+	0% {
+		opacity: 0.1;
+	}
+	100% {
+		opacity: 0.8;
+	}
+}
+
+@media only screen and (max-width: 1025px)  {
+	.smallScreen {
+		display:none;
+	}
+}
+
+.blueGoldWhite {
+	background: linear-gradient(rgba(6, 176, 239, 0.1), rgba(255, 216, 61, 0.1), rgba(255, 255, 255, 1))!important;
+}
+
+.blueGold {
+	background: linear-gradient(rgba(6, 176, 239, 0.1), rgba(255, 216, 61, 0.1))!important;
+}
+
+.goldBlue {
+	background: linear-gradient(rgba(255, 216, 61, 0.1), rgba(6, 176, 239, 0.1))!important;	
+}
+
+.goldWhite {
+	background: linear-gradient(rgba(255, 216, 61, 0.1), rgba(255, 255, 255, 1))!important;	
+}
+
+.whiteGoldWhite {
+	background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 216, 61, 0.1), rgba(255, 255, 255, 1))!important;
+}
+
+.whiteBlueWhite {
+	background: linear-gradient(rgba(255, 255, 255, 1), rgba(6, 176, 239, 0.1), rgba(255, 255, 255, 1))!important;
+}
+
+.whiteBlue {
+	background: linear-gradient(rgba(255, 255, 255, 1), rgba(6, 176, 239, 0.1))!important;
+}
+.whiteGold {
+	background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 216, 61, 0.1))!important;
+}
+
+
+
+
+
